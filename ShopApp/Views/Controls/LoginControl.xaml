@@ -1,0 +1,17 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:local="clr-namespace:ShopApp.views"
+	xmlns:hc="https://handyorg.github.io/handycontrol" x:Class="ShopApp.views.LoginControl"
+             mc:Ignorable="d" 
+             d:DesignHeight="200" d:DesignWidth="250">
+    <StackPanel>
+        <hc:TextBox x:Name="username" Height="35" Margin="0,10,0,0" hc:InfoElement.Placeholder="Benutzername" Background="#FF232323" Foreground="#FFEBEBEB" BorderBrush="#FF3C3C3C" SelectionBrush="#FF646464" CaretBrush="#FFFFED00" BorderThickness="1"></hc:TextBox>
+        <hc:PasswordBox x:Name="password" Height="35" Margin="0,10,0,0"  hc:InfoElement.Placeholder="Passwort" Background="#FF232323" Foreground="#FFEBEBEB" BorderBrush="#FF3C3C3C" SelectionBrush="#FF646464" CaretBrush="#FFFFED00" BorderThickness="1"></hc:PasswordBox>
+        <CheckBox  Margin="0,10,0,0" Background="#FF232325" Foreground="#FFEBEBEB" BorderBrush="#FF3C3C3C" Content="Angemeldet bleiben"/>
+        <Button x:Name="loginBtn" Content="Einloggen" Margin = "0,10,0,0" HorizontalAlignment="Stretch" Background="#FFFFED00" Height="35" BorderBrush="#FFFFED00" Cursor="Hand" Click="loginBtn_Click"/>
+        <Label Content="Noch kein Account?" FontSize="11" BorderBrush="Transparent" HorizontalAlignment="Left" Padding="0,0,0,0" Foreground="Yellow" Background="Transparent" MouseLeftButtonDown="NoAccountLabel_MouseLeftButtonDown" Cursor="Hand"/>
+    </StackPanel>
+</UserControl>

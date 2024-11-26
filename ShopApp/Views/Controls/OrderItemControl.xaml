@@ -1,0 +1,28 @@
+﻿<UserControl x:Class="ShopApp.Views.Controls.OrderItemControl"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:local="clr-namespace:ShopApp.Views.Controls"
+	xmlns:hc="https://handyorg.github.io/handycontrol"
+             mc:Ignorable="d" 
+             d:DesignHeight="50" d:DesignWidth="500" Loaded="UserControl_Loaded">
+    <Border BorderBrush="#353535" BorderThickness="1" Background="#151515">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="100"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <StackPanel Orientation="Vertical" Grid.Column="0">
+                <StackPanel Orientation="Horizontal">
+                    <Label x:Name="orderTitle" Content="Bestellung #" VerticalAlignment="Top" HorizontalAlignment="Left" Background="Transparent" BorderBrush="Transparent" Foreground="White" FontSize="14"></Label>
+                    <Label x:Name="orderDate" Content="~ 11.11.1993" VerticalAlignment="Top" HorizontalAlignment="Left" Background="Transparent" BorderBrush="Transparent" Foreground="Gray" Margin="-15,0,0,0"></Label>
+                </StackPanel>
+                <Label x:Name="orderDescription" Content="" Margin="2, -10, 0, 0" VerticalAlignment="Top" HorizontalAlignment="Left" Background="Transparent" BorderBrush="Transparent" Foreground="Gray" Height="Auto" Width="Auto" ></Label>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Column="2">
+                <Label Grid.Column="1" x:Name="productPrice" Content="99.99€" Margin="2, 0, 0, 0" VerticalAlignment="Center" HorizontalAlignment="Center" Background="Transparent" BorderBrush="Transparent" Foreground="White" ></Label>
+            </StackPanel>
+        </Grid>
+    </Border>
+</UserControl>

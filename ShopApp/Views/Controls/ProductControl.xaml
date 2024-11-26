@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="ShopApp.Views.Controls.ProductControl"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             d:DesignHeight="150" d:DesignWidth="210">
+    <Border Background="#181818" BorderThickness="0.5" BorderBrush="#3C3C3C" CornerRadius="10, 10, 10, 10" Margin="10,0,0,0" Width="200" >
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="95"></RowDefinition>
+                <RowDefinition Height="55"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Image x:Name="backgroundImage" Grid.Row="0" Width="65" Height="65"></Image>
+            <Grid Grid.Row="1">
+                <Label Content="Produktname" x:Name="productTitle" VerticalAlignment="Top" HorizontalAlignment="Left" Background="Transparent" Foreground="White" BorderBrush="Transparent" ></Label>
+                <Label Content="00.00€" x:Name="productPrice"  VerticalAlignment="Top" HorizontalAlignment="Right" Background="Transparent" Foreground="White" BorderBrush="Transparent"></Label>
+                <Button x:Name="cartBtn" VerticalAlignment="Bottom" Content="Zum Warenkorb hinzufügen" BorderBrush="Transparent" Width="200" Background="Yellow" Click="cartBtn_Click" />
+            </Grid>
+        </Grid>
+    </Border>
+</UserControl>

@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="ShopApp.Views.Controls.CartItemControl"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:local="clr-namespace:ShopApp.Views.Controls"
+	xmlns:hc="https://handyorg.github.io/handycontrol"
+             mc:Ignorable="d" 
+             d:DesignHeight="50" d:DesignWidth="400" Loaded="UserControl_Loaded">
+    <Border BorderBrush="#353535" BorderThickness="1" Background="#151515">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="175"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Image x:Name="productImage" Source="/Resources/camera.png" Height="40" Width="40"></Image>
+            <StackPanel Orientation="Vertical" Grid.Column="1">
+                <Label Grid.Column="1" x:Name="productTitle" Content="Produktname" VerticalAlignment="Top" HorizontalAlignment="Left" Background="Transparent" BorderBrush="Transparent" Foreground="White"></Label>
+                <Label Grid.Column="1" x:Name="productDescription" Content="Eine Kamera" Margin="2, -10, 0, 0" VerticalAlignment="Top" HorizontalAlignment="Left" Background="Transparent" BorderBrush="Transparent" Foreground="Gray" ></Label>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Column="2">
+                <Image x:Name="deleteBtn" Source="/Resources/trashbin.png" Width="25" MouseLeftButtonDown="deleteBtn_MouseLeftButtonDown"></Image>
+                <hc:NumericUpDown x:Name="productAmount" Width="60"  Margin="10,0,0,0" Height="25" Value="10" Minimum="1" Background="#FF232323" Foreground="#FFEBEBEB" BorderBrush="#FF3C3C3C" SelectionBrush="#FF646464" ValueChanged="productAmount_ValueChanged" ></hc:NumericUpDown>
+                <Label Grid.Column="1" x:Name="productPrice" Content="99.99€" Margin="2, 0, 0, 0" VerticalAlignment="Center" HorizontalAlignment="Center" Background="Transparent" BorderBrush="Transparent" Foreground="White" ></Label>
+            </StackPanel>
+        </Grid>
+    </Border>
+</UserControl>

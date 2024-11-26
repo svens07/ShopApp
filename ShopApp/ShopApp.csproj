@@ -1,0 +1,76 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Resources\logo.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\apple.png" />
+    <None Remove="Resources\bread.png" />
+    <None Remove="Resources\burger.png" />
+    <None Remove="Resources\camera.png" />
+    <None Remove="Resources\hammer.png" />
+    <None Remove="Resources\laptop.png" />
+    <None Remove="Resources\logo.png" />
+    <None Remove="Resources\nails.png" />
+    <None Remove="Resources\password.png" />
+    <None Remove="Resources\phone.png" />
+    <None Remove="Resources\saw.png" />
+    <None Remove="Resources\screwdriver.png" />
+    <None Remove="Resources\shopping_cart.png" />
+    <None Remove="Resources\shopping_cart_checked.png" />
+    <None Remove="Resources\tablet.png" />
+    <None Remove="Resources\trashbin.png" />
+    <None Remove="Resources\user_checked.png" />
+    <None Remove="Resources\shop.png" />
+    <None Remove="Resources\shop_checked.png" />
+    <None Remove="Resources\invoice.png" />
+    <None Remove="Resources\invoice_checked.png" />
+    <None Remove="Resources\search.png" />
+    <None Remove="Resources\product_image.png" />
+    <None Remove="Resources\close.png" />
+    <None Remove="Resources\user.png" />
+    <None Remove="Resources\minimize.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\logo.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HandyControl" Version="3.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\apple.png" />
+    <Resource Include="Resources\bread.png" />
+    <Resource Include="Resources\burger.png" />
+    <Resource Include="Resources\camera.png" />
+    <Resource Include="Resources\hammer.png" />
+    <Resource Include="Resources\laptop.png" />
+    <Resource Include="Resources\logo.png" />
+    <Resource Include="Resources\nails.png" />
+    <Resource Include="Resources\password.png" />
+    <Resource Include="Resources\phone.png" />
+    <Resource Include="Resources\saw.png" />
+    <Resource Include="Resources\screwdriver.png" />
+    <Resource Include="Resources\search.png" />
+    <Resource Include="Resources\product_image.png" />
+    <Resource Include="Resources\minimize.png" />
+    <Resource Include="Resources\close.png" />
+    <Resource Include="Resources\tablet.png" />
+    <Resource Include="Resources\trashbin.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Views\Controls\RegisterControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>
