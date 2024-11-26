@@ -4,7 +4,7 @@ Eine App um Produkte zu kaufen und Bestellungen zu tätigen.
 Besteht aus einer API und einer WPF-Anwendung.
 
 **Hinweis:** Einige Funktionen sind noch nicht verfügbar, z.B. das Wechseln seines Passworts aber es ist bereits in der API drin oder das Speichern von Anmeldedaten.
-             Es gibt eine Verbesserungsmöglichkeiten, wie z.B. das Cachen von Produktinformationen um nicht jedes mal eine API Request schicken zu müssen.
+             Es gibt einige Verbesserungsmöglichkeiten, wie z.B. das Cachen von Produktinformationen um nicht jedes mal eine API Request schicken zu müssen.
 
 Alle benutzten Bilder sind von https://icons8.de/.
 
