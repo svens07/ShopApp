@@ -8,7 +8,7 @@ Besteht aus einer API und einer WPF-Anwendung.
 
 Alle benutzten Bilder sind von https://icons8.de/.
 
-##TODO:
+### TODO:
 - Detailierte Bestellinformationen (z.B. Adresse, Name, etc)
 - Noch zu fehlende Funktionen hinzufügen
 
