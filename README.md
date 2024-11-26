@@ -46,8 +46,8 @@ Die API ist da um Benutzerkonten, Warenkörbe, Bestellungen und Produkte zu verw
 
 
 ### **Bilder**
-![login](https://github.com/user-attachments/assets/0cb7d8a9-e143-4635-ad9d-c3dae1c8549e)
-![register](https://github.com/user-attachments/assets/c2c61292-da98-403f-98fb-5443f5c8ec6a)
-![produkte](https://github.com/user-attachments/assets/ec52c875-383d-415e-acdf-31ef102b1fb6)
-![warenkorb](https://github.com/user-attachments/assets/5c6ce195-07e0-4328-beb6-e9c183384f39)
-![bestellungen](https://github.com/user-attachments/assets/956046d5-4f79-4941-a98f-9d29fac0127b)
+![login](https://github.com/user-attachments/assets/93ba9059-24f9-4634-a5b6-31ee560a0929)
+![register](https://github.com/user-attachments/assets/75c9a645-cfd4-4370-9b3b-ef5c24aa64de)
+![produkte](https://github.com/user-attachments/assets/07883f8c-d8ee-4290-9854-b259e96d7147)
+![warenkorb](https://github.com/user-attachments/assets/007fe998-86eb-4946-8e8c-cc2539ba52da)
+![bestellungen](https://github.com/user-attachments/assets/be5c2e69-1fc9-46d0-b6f7-55ef439aea6e)
