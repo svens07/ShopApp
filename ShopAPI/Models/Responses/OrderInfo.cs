@@ -7,10 +7,8 @@ namespace AuthApi.Models.Responses
         public OrderInfo() { }
 
         public int id { get; set; }
-
         public double totalAmount { get; set; }
         public DateTime createdAt { get; set; }
-
         public List<CartItemMin> cartItems { get; set; }
     }
 }
