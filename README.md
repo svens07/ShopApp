@@ -44,6 +44,7 @@ Die API ist da um Benutzerkonten, Warenkörbe, Bestellungen und Produkte zu verw
 - **carts**: id, userId, isActive, createdAt, totalAmount
 - **cart_items**: id, cartId, productId, quantity, updatedAt, createdAt
 
+---
 
 ### **Bilder**
 ![login](https://github.com/user-attachments/assets/93ba9059-24f9-4634-a5b6-31ee560a0929)
