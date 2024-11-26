@@ -11,6 +11,7 @@ Alle benutzten Bilder sind von https://icons8.de/.
 ### TODO:
 - Detailierte Bestellinformationen (z.B. Adresse, Name, etc)
 - Noch zu fehlende Funktionen hinzufügen
+- (vielleicht) ein Inventar System
 
 ---
 ### **API**
